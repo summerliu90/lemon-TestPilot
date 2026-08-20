@@ -1,0 +1,26 @@
+{
+  "name": "testpilot-personal-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "tsc --noEmit && vite build",
+    "start": "node server.mjs --production",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "lucide-react": "^1.32.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
+  }
+}

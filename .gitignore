@@ -1,0 +1,12 @@
+node_modules/
+.pnpm-store/
+dist/
+runtime-dist/
+.doc-drafts/
+.DS_Store
+.env
+.env.*
+!.env.example
+data/*.sqlite
+data/*.sqlite-*
+data/backups/
