@@ -14,6 +14,7 @@
 
 首次进入时，如果检测到旧版浏览器数据，页面会询问是否备份并迁移到 SQLite。迁移文件保存在 `data/backups`，迁移过程具有幂等保护。
 
+<img width="1280" height="1189" alt="image" src="https://github.com/user-attachments/assets/7d87a6ff-5947-4b2f-ad6a-7b3bf7bc30c2" />
 ## 主要功能
 
 - 首页指标、快捷单任务与组合任务
@@ -25,8 +26,11 @@
 - 可编辑、版本化、带引用保护的知识库
 - 父子任务结构的自定义全链路
 - OpenAI、通义千问、DeepSeek 和自定义兼容模型配置
+<img width="1280" height="871" alt="image" src="https://github.com/user-attachments/assets/e07fc911-5134-46a5-8eeb-66a79d5385e8" />
 
 API Key 通过 macOS 钥匙串保存，SQLite 仅记录脱敏状态。
+<img width="1280" height="897" alt="image" src="https://github.com/user-attachments/assets/01a0f110-1f3d-4a82-9c07-32dd98d1d676" />
+
 
 ## 开发校验
 
